@@ -33,10 +33,15 @@ public class Solution05
         System.out.print("Enter the second number: ");
         num2 = Integer.parseInt(sc.nextLine());
 
-        System.out.print(num1 + " + " + num2 + " = " + (num1 + num2) + '\n'
-                + num1 + " - " + num2 + " = " + (num1 - num2) + '\n'
-                + num1 + " * " + num2 + " = " + (num1 * num2) + '\n'
-                + num1 + " / " + num2 + " = " + (num1 / num2) + '\n');
+        int sum = (num1 + num2);
+        int difference = (num1 - num2);
+        int product = (num1 * num2);
+        int quotient = (num1 / num2);
+
+        System.out.print(num1 + " + " + num2 + " = " + sum + '\n'
+                + num1 + " - " + num2 + " = " + difference + '\n'
+                + num1 + " * " + num2 + " = " + product + '\n'
+                + num1 + " / " + num2 + " = " + quotient + '\n');
 
         System.exit(0);
     }
