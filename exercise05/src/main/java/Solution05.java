@@ -27,10 +27,10 @@ public class Solution05
         int num1;
         int num2;
 
-        System.out.print("Enter the first number: ");
+        System.out.print("What is the first number: ");
         num1 = Integer.parseInt(sc.nextLine());
 
-        System.out.print("Enter the second number: ");
+        System.out.print("What is the second number: ");
         num2 = Integer.parseInt(sc.nextLine());
 
         int sum = num1 + num2;

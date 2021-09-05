@@ -37,7 +37,7 @@ public class Challenge02
 
         while(true)
         {
-            System.out.print("Enter the first number: ");
+            System.out.print("What is the first number: ");
             num1 = Integer.parseInt(sc.nextLine());
             if(num1 >= 0)
             {
@@ -51,7 +51,7 @@ public class Challenge02
 
         while(true)
         {
-            System.out.print("Enter the second number: ");
+            System.out.print("What is the second number: ");
             num2 = Integer.parseInt(sc.nextLine());
             if(num2 >= 0)
             {
