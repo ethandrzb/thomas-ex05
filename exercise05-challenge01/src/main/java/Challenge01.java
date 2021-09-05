@@ -63,10 +63,20 @@ public class Challenge01
             }
         }
 
-        System.out.print(num1 + " + " + num2 + " = " + (num1 + num2) + '\n'
-                + num1 + " - " + num2 + " = " + (num1 - num2) + '\n'
-                + num1 + " * " + num2 + " = " + (num1 * num2) + '\n'
-                + num1 + " / " + num2 + " = " + (num1 / num2) + '\n');
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        double quotient = (double) num1 / num2;
+
+        System.out.printf("""
+                %d + %d = %d
+                %d - %d = %d
+                %d * %d = %d
+                %d / %d = %.3f
+                """, num1, num2, sum,
+                num1, num2, difference,
+                num1, num2, product,
+                num1, num2, quotient);
 
         System.exit(0);
     }
